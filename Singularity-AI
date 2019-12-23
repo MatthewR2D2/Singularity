@@ -14,7 +14,6 @@ From: tensorflow/tensorflow:latest-gpu
 %labels
 
 %post
-    pip3 install tensorflow
 	pip3 install keras
     pip3 install boto3
     pip3 install awscli
