@@ -14,19 +14,6 @@ From: tensorflow/tensorflow:latest-gpu-jupyter
 %labels
 
 %post
-	pip3 install --upgrade pip
-    pip3 install --upgrade keras
-    pip3 install boto3
-    pip3 install awscli
-    pip3 install opencv-contrib-python
-    pip3 install tensorlayer
-    pip3 install click
-    pip3 install tqdm
-    pip3 install easydict
-    pip3 install autopep8
-    pip3 install Pillow
-    pip3 install numpy
-    pip3 install Pillow
-    pip3 install matplotlib
-
+	pip install --upgrade pip
+ 
     
