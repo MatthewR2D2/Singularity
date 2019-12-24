@@ -14,14 +14,8 @@ From: tensorflow/tensorflow:latest-gpu-jupyter
 %labels
 
 %post
-	apt-get update
-	apt-get install python-pip
-    apt-get -y install python3-tk
-    apt-get install -y libsm6 libxext6
-	
 	pip install --upgrade pip
-
-    pip install keras
+    pip install --upgrade keras
     pip install boto3
     pip install awscli
     pip install opencv-contrib-python
