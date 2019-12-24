@@ -14,6 +14,6 @@ From: tensorflow/tensorflow:latest-gpu-jupyter
 %labels
 
 %post
-	pip install --upgrade pip
+
  
     
