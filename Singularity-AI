@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: tensorflow/tensorflow-gpu
+From: tensorflow/tensorflow:latest-gpu
 
 %runscript
     exec echo "Tensorflow GPU container"
@@ -21,5 +21,4 @@ From: tensorflow/tensorflow-gpu
     pip3 install easydict
     pip3 install autopep8
 
- 
     
