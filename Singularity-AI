@@ -14,7 +14,6 @@ From: tensorflow/tensorflow:latest-gpu-jupyter
 %labels
 
 %post
-
     apt-get update
     apt-get install python-pip
     apt-get -y install python3-tk
