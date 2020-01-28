@@ -15,7 +15,6 @@ From: tensorflow/tensorflow:2.0.0-gpu-py3
     /usr/local/bin/pip3 --no-cache-dir install \
         wheel \
         Pillow \
-        opencv-python \
         matplotlib \
         numpy \
         pandas \
