@@ -35,8 +35,9 @@ From: tensorflow/tensorflow:2.0.0-gpu-py3
         seaborn \
         tensorflow-addons \
         tensorflow-datasets \
+        efficientnet \
         jupyter \
-        opencv-contrib-python
+        opencv-contrib-python \
 
 
 %environment
