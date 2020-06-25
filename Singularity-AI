@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: tensorflow/tensorflow:latest-gpu python
+From: tensorflow/tensorflow:latest-gpu py3
 
 %post
     apt-get update && apt-get install -y --no-install-recommends \
