@@ -17,15 +17,15 @@ From: tensorflow/tensorflow:2.1.0-gpu-py3
     apt-get update
     apt-get -y install python3-tk
     apt-get install -y libsm6 libxext6
-	pip3 install --update pip
-    pip3 install keras
-    pip3 install boto3
-    pip3 install awscli
-    pip3 install opencv-python
-    pip3 install tensorlayer
-    pip3 install click
-    pip3 install tqdm
-    pip3 install easydict
-    pip3 install autopep8
-    pip3 install jupyter_contrib_nbextensions && jupyter contrib nbextension install
+    pip install --update pip
+    pip install keras
+    pip install boto3
+    pip install awscli
+    pip install opencv-python
+    pip install tensorlayer
+    pip install click
+    pip install tqdm
+    pip install easydict
+    pip install autopep8
+    pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install
     
