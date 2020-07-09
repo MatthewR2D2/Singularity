@@ -1,5 +1,6 @@
 Bootstrap: docker
-From: tensorflow/tensorflow:latest-gpu
+From: tensorflow/tensorflow:2.2.0-custom-op-gpu-ubuntu16
+
 
 %runscript
     exec echo "Tensorflow GPU container"
