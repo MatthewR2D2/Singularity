@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: tensorflow/tensorflow:2.3.0rc0-gpu
+From: tensorflow/tensorflow:2.2.0-gpu
 
 %runscript
     exec echo "Tensorflow GPU container"
@@ -14,23 +14,39 @@ From: tensorflow/tensorflow:2.3.0rc0-gpu
 %labels
 
 %post
+    /usr/local/bin/pip3 --no-cache-dir install \
+        autopep8 \
+        awscli \
+        boto3 \
+        click \
+        contextlib2 \
+        Cython \
+        easydict \
+        efficientnet \
+        kaggle \
+        keras \
+        lxml \
+        matplotlib \
+        mlflow \
+        mtcnn \
+        opencv-python \
+        pandas \
+        Pillow \
+        pyarrow \
+        scipy \
+        seaborn \
+        sklearn \
+        tensorflow-addons \
+        tensorflow-datasets \
+        tensorflow-probability \
+        tensorlayer \
+        tqdm \
+        wheel
+
     apt-get update
-    apt-get -y install python3-tk
-    apt-get install -y libsm6 libxext6
-    pip install keras
-    pip install efficientnet
-    pip install matplotlib
-    pip install scikit-learn
-    pip install scipy
-    pip install numpy
-    pip install pandas
-    pip install boto3
-    pip install awscli
-    pip install opencv-python
-    pip install tensorlayer
-    pip install click
-    pip install tqdm
-    pip install easydict
-    pip install autopep8
-    pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install
-    
+    apt-get install -y \
+        python3-tk \
+        libsm6 \
+        libxext6 \
+        git
+
